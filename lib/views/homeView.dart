@@ -106,11 +106,11 @@ class _HomeViewState extends State<HomeView> {
               layers: [
                 new TileLayerOptions(
                   urlTemplate:
-                      'https://api.mapbox.com/styles/v1/tusha55/ckilggvjg0aju17lnsm7771uf/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoidHVzaGE1NSIsImEiOiJja2lrODd0cXkwN2FhMzFveXFkbmZkcXh6In0.9QFXVozLHDr09C7q-LyWyw',
+                      'Map-Box Third Party URL here',
                   additionalOptions: {
                     'accessToken':
-                        'pk.eyJ1IjoidHVzaGE1NSIsImEiOiJja2lrODd0cXkwN2FhMzFveXFkbmZkcXh6In0.9QFXVozLHDr09C7q-LyWyw',
-                    'id': 'mapbox.mapbox-streets-v8'
+                        'Your Api-Token Here',
+                    'id': 'Mapbox Map id here'
                   },
                 ),
                 MarkerLayerOptions(
